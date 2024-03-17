@@ -1,0 +1,98 @@
+---
+title: "Analysis of Human Activity Recognition"
+author: "Eileen"
+date: "2024-03-16"
+output: html_document
+---
+## Experimental Study Design
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
+
+
+## Variable Information
+
+The three classes of variables below are split into a test data set and a train data set. All files are in a tabular format.
+
+* _Total acceleration variable class_: The acceleration signal from the smartphone accelerometer. 
+  + measured in gravity units 'g'
+  + This variable class contains 3 variable. One for each spatial axis; X-axis variable, Y-axis variable and the Z-axis variable.
+  
+
+* _Body acceleration variable class_: The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+  + measured in gravity units 'g'
+  + This variable class contains 3 variable. One for each spatial axis; X-axis variable, Y-axis variable and the Z-axis variable.  
+  
+
+* _Angular Velocity variable class_: The angular velocity vector measured by the gyroscope for each window sample. 
+  + The units are radians/second. 
+  + This variable class contains 3 variable. One for each spatial axis; X-axis variable, Y-axis variable and the Z-axis variable.  
+
+
+## Measurements
+The following is the list of variables which a `mean` and `standard deviation` was extracted from 
+
+* tBodyAccmeanX
+* tBodyAccmeanY
+* tBodyAccmeanZ
+* tBodyAccstdX
+* tBodyAccstdY
+* tBodyAccstdZ
+* tGravityAccmeanX
+* tGravityAccmeanY
+* tGravityAccmeanZ
+* tGravityAccstdX
+* tGravityAccstdY
+* tGravityAccstdZ
+* tBodyAccJerkmeanX
+* tBodyAccJerkmeanY
+* tBodyAccJerkmeanZ
+* tBodyAccJerkstdX
+* tBodyAccJerkstdY
+* tBodyAccJerkstdZ
+* tBodyGyromeanX
+* tBodyGyromeanY
+* tBodyGyromeanZ
+* tBodyGyrostdX
+* tBodyGyrostdY
+* tBodyGyrostdZ
+* tBodyGyroJerkmeanX
+* tBodyGyroJerkmeanY
+* tBodyGyroJerkmeanZ
+* tBodyGyroJerkstdX
+* tBodyGyroJerkstdY
+* tBodyGyroJerkstdZ
+* tBodyAccMagmean
+* tBodyAccMagstd
+* tGravityAccMagmean
+* tGravityAccMagstd
+* tBodyAccJerkMagmean
+* tBodyAccJerkMagstd
+* tBodyGyroMagmean
+* tBodyGyroMagstd
+* tBodyGyroJerkMagmean
+* tBodyGyroJerkMagstd
+* fBodyAccmeanX
+* fBodyAccmeanY
+* fBodyAccmeanZ
+* fBodyAccstdX
+* fBodyAccstdY
+* fBodyAccstdZ
+* fBodyAccJerkmeanX
+* fBodyAccJerkmeanY
+* fBodyAccJerkmeanZ
+* fBodyAccJerkstdX
+* fBodyAccJerkstdY
+* fBodyAccJerkstdZ
+* fBodyGyromeanX
+* fBodyGyromeanY
+* fBodyGyromeanZ
+* fBodyGyrostdX
+* fBodyGyrostdY
+* fBodyGyrostdZ
+* fBodyAccMagmean
+* fBodyAccMagstd
+* fBodyBodyAccJerkMagmean
+* fBodyBodyAccJerkMagstd
+* fBodyBodyGyroMagmean
+* fBodyBodyGyroMagstd
+* fBodyBodyGyroJerkMagmean
+* fBodyBodyGyroJerkMagstd
